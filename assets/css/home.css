@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    font-family: 'Open Sans', 'icones', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cabecalho);
+
+    width: 100vw;
+    height: 5vh;
+    padding: 16px 0 16px 0;
+}
+
+.cabecalho__menu::before{
+    content: "\e904";
+    background: none;
+    font-size: 24px;
+    color: white;
+
+    margin-left: 16px;
+}
+
+.cabecalho__logo{
+    width: 20vw;
+    height: 8vh;
+}
+
+.cabecalho__notificacao::before{
+    content: "\e906";
+    font-size: 24px;
+    color: white;
+
+    margin-right: 16px;
+}
