@@ -8,6 +8,10 @@ body{
     background-color: var(--corpo);
 }
 
+main{
+    padding: 0px 16px 0px 16px;
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -39,4 +43,56 @@ body{
     color: white;
 
     margin-right: 16px;
+}
+
+.card{
+    background-color: var(--cartao);
+    color: white;
+    border-radius: 0.5em;
+
+    width: 90vw;
+}
+
+.card__informacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    justify-content: start;
+
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    padding-bottom: 1em;
+    
+}
+
+.card__informacao__button--default{
+    background-color: var(--botao-default);
+    border-radius: 0.5em;
+    height: 2em;
+}
+
+.card__informacao__button--default::before{
+    content: "\e90b";
+    margin: 16px 8px 8px 0;
+
+}
+
+.card__informacao__subtitulo-1{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.card__informacao__titulo-2{
+    font-weight: 700;
+}
+
+.card__informacao__subtitulo-2{
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.card__informacao--span{
+    grid-column: span 2;
 }
