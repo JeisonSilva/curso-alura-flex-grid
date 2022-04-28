@@ -101,3 +101,8 @@ Largura máxima do conteúdo principal: `1120px`
 Largura máxima de um cartão desktop: `256px`
 
 Altura mínima de um cartão: `320px`
+
+# Site versão mobile:
+|Home|
+------
+![](./docs/home_card_1.png)
