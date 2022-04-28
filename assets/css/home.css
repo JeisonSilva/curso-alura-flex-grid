@@ -5,13 +5,14 @@
 
 body{
     font-family: 'Open Sans', 'icones', sans-serif;
+    background-color: var(--corpo);
 }
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cabecalho);
+    background-color: var(--cabecalho-mobile);
 
     width: 100vw;
     height: 5vh;
