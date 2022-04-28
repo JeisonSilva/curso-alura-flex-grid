@@ -105,4 +105,5 @@ Altura mínima de um cartão: `320px`
 # Site versão mobile:
 |Home|
 ------
-![](./docs/home_card_1.png)
+![](./docs/usabilidade_mobile.gif)
+
