@@ -107,7 +107,7 @@ section{
     content: "\e901";
 }
 
-.card__informacao__visualizacao{
+.card__informacao__centralizar--vertical{
     align-self: center;
 }
 
