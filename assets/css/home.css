@@ -148,3 +148,93 @@ section{
     content: "\e90f";
     margin-right: 1em;
 }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--menu);
+    color: white;
+
+    position: absolute;
+    left: 0vw;
+
+    width: 70vw;
+    height: 100vh;
+    padding: 0 0 0 2em;
+
+    z-index: 1;
+}
+
+.menu__item{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+
+    margin-top: 2em;
+    
+}
+.menu__item--home::before{
+    content: "\e902";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--videos::before{
+    content: "\e90e";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--picos::before{
+    content: "\e908";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--integrantes::before{
+    content: "\e903";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--camisas::before{
+    content: "\e900";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--pinturas::before{
+    content: "\e90a";
+    font-size: 1.5em;
+
+    margin-right: 16px;
+}
+
+.menu__item--logo{
+    align-self: center;
+}
+
+
+.menu__item--logo img{
+    width: 20vw;
+    height: 20vh;
+}
+
+.menu__item--fechado{
+    position: absolute;
+    left: -120vw;
+
+    transition: all 0.2s ease-out;
+}
+
+.menu__item--aberto{
+    position: absolute;
+    left: 0;
+
+    transition: all 0.2s ease;
+}
